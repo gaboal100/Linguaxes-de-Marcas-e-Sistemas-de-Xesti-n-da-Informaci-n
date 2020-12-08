@@ -1,0 +1,111 @@
+#tipo1{
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+}
+
+#tipo2 {
+     border: 10px solid #3EC483;
+     background: #5DEAA8;
+     height: 100px;
+     width: 200px;
+     padding: 10px;
+     margin: 10px;
+}
+
+#tipo3 {
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+    margin: 40px;
+    padding: 20px;
+}
+
+#tipo4 {
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+    margin: 40px 30px;
+    padding: 20px 50px;
+}
+
+#tipo5 {
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+    margin: 40px 30px 70px;
+    padding: 20px 50px 60px;
+}
+
+#tipo6 {
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+    margin: 40px 30px 70px 80px;
+    padding: 20px 50px 60px 90px;
+}
+
+#tipo7{
+    border: 25px solid yellow;
+}
+
+#tipo8{
+    border: black 2px;
+    border-top: dotted;
+    border-right: dashed;
+    border-bottom: solid;
+    border-left: double;
+}
+
+#h1{
+    border-width: 12px;
+    border-style: dashed;
+    border-color: aqua;
+    border-radius: 6px;
+}
+
+#h2{
+    border: 5px solid black;
+    border-bottom-style: groove;
+    border-bottom-color: aliceblue;
+    border-bottom-left-radius: 7px;
+    border-bottom-width: 14px;
+    border-right-style: double;
+    border-right-color: blue;
+}
+
+#h3{
+    border-width: 12px 6px 7px 8px;
+    border: dotted black;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+#lista{
+    border: 4px 1px;
+    border-style: dashed double;
+}
+
+#li1, #li2, #li3{
+    border: 1px dashed black;
+}
+
+#ejemplo1{
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    border: red 25px solid;
+}
+
+#ejemplo2{
+    width: 200px;
+    height: 100px;
+    box-sizing: content-box;
+    border: red 25px solid;
+}
+
+#ejemplo3{
+    width: 200px;
+    height: 100px;
+    border: red 25px solid;
+}

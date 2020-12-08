@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        
+        <meta name="description" content="Información que van a utilizar los buscadores de internet para categorizar esta página">
+        
+        <!--CSS a nivel de documento html concreto en head
+        Toda regla CSS tiene 3 partes: selector{regla} // y cada una de esas reglas serán Reglas=> Propiedad:Valor
+        Es decir: Selector{Propiedad:Valor;Propiedad:Valor;etc}-->
+        
+        <!--Los encabezados de nivel impar en negrita, cursiva, tamaño 33 y tipo de letra Times New Roman -->
+        
+        <style type:"text/css">
+            p{
+                font-family: Arial;
+                font-size: 15px;
+                color: red;
+            }
+            
+            h1,h3,h5{
+                font-weight: bold;
+                font-style: italic;
+                font-size: 33px;
+                font-family: sans-serif;                
+            }
+        </style>
+        
+        <link rel="stylesheet"  href="Estilos.css">
+        
+        <title>Título de la página web</title>
+	</head>
+    
+	<body>
+        <!--CSS a nivel etiqueta html concreta (style)-->
+		<p style="font-family: Courier; font-size:22px">Esto es un párrafo</p>
+        <span style="border-bottom:2px dotted red"> ¿Qué es poesía? </span>
+        
+        <br>
+        
+        <span style="border-bottom-color:blue; border-bottom:2px; border-bottom-style: dotted"> ¿Qué es poesía? v2.0 </span>
+        
+        <p>Segundo párrafo sin aplicar estilos particulares tomando los estilos definidos en el head</p>
+        
+        <h1>Prueba de estilos (Encabezado de nivel 1)</h1>
+        <h2>Prueba de estilos (Encabezado de nivel 2)</h2>
+        <h3>Prueba de estilos (Encabezado de nivel 3)</h3>
+        <h4>Prueba de estilos (Encabezado de nivel 4)</h4>
+        <h5>Prueba de estilos (Encabezado de nivel 5)</h5>
+        <h6>Prueba de estilos (Encabezado de nivel 6)</h6>
+        
+        <ol>
+            <li id="primero">Elemento de la lista con los estilos definidos en el fichero estilos.css</li>
+            <li> Otro elemento de la lista con los estilos definidos en el fichero estilos.css</li>
+        </ol>
+        
+        <dl>
+            <dt>Término 1 para estilos en fichero css</dt>
+            <dd>Definición del primer término</dd>
+            <dt>Término 2 para estilos en fichero css</dt>
+            <dd>Definición del segundo término</dd>
+            <dt>Término 3 para estilos en fichero css</dt>
+            <dd>Definición del tercer término</dd>
+            
+        </dl>
+        
+        <ul>
+            <li id="IdentElem1">Elemento1 de la lista desordenada</li>
+            <li>Elemento2 de la lista desordenada</li>
+            <li>Elemento3 de la lista desordenada</li>
+        </ul>
+        
+	</body>
+</html>

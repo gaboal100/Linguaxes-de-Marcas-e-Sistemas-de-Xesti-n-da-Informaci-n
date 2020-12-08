@@ -1,0 +1,46 @@
+div{
+    border: 3px solid black;
+}
+
+p{
+    border: 1px solid red;
+}
+
+#caja1{
+    float: right;
+}
+
+#caja1Izq{
+    float: left;
+    border: yellow 1px solid;
+}
+
+#caja2{
+    float: right;
+}
+
+#izqt1, #izqt2, #izqt3{
+    float: left;
+} 
+
+#img1{
+    float: left;
+}
+
+#limpio{
+    clear: left;
+}
+
+#nav{
+    background-color: grey;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#ant{
+    float: left;
+}
+
+#pos{
+    float: right;
+}

@@ -1,0 +1,45 @@
+#p1{
+    width: 10em;
+    height: 10em;
+    border: solid 1em black;
+    margin: 10px;
+    background-color: rgba(255,0,0, 1); /*Rojo, verde y azul y luego opacidad*/
+}
+
+#p2{
+    width: 50ex;
+    height: 10ex;
+    border: 1ex solid blue;
+    margin: 10px;
+    background-color: #567895;
+}
+
+#p3{
+    width: 300px;
+    height: 150px;
+    border: 2px solid red;
+    margin: 25px;
+    background-color: yellow;
+}
+
+#caja1{
+    background-color: yellow; /*no se ven porque la imagen está por encima*/
+    height: 300px;
+    width: 250px;
+    background-image: url(balloons.jpg);
+    background-size: cover;
+}
+
+#caja2{
+    background-color: green; /*la imagen tiene transparencia y es más pequeña que el ancho y alto de la caja, permitiendo así ver el color de fondo de la caja*/
+    height: 400px;
+    width: 650px;
+    background-image: url(star.png);
+    background-repeat: no-repeat; /*no se repite la imagen*/
+    background-size: contain;
+    background-position: top center;
+}
+
+#contenedor2{
+    background-color: blue;
+}

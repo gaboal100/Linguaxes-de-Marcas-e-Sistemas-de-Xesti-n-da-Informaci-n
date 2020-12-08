@@ -1,0 +1,37 @@
+p{
+    border: 2px blue solid;
+}
+
+a{
+    border: 2px red dashed;
+}
+
+div{
+    border: 3px solid gray;
+    
+}
+
+#Caja2{
+    position: relative; /*pto de referencia su posicionamiento normal*/
+    top: 20px;
+    left: 60px;
+}
+
+#Caja3{
+    position: absolute; /*Para que tome como referencia su contenedor propio en vez de usar a body, el contenedor necesita cualquier position que no sea la normal*/
+    top: 50px;
+    left: 300px;
+}
+
+#DivPosAbs{
+    position: relative;
+}
+
+
+/*position: static; Valor de posicionamiento por defecto*/
+/*position: relative; Indicamos posicionamiento relativo*/
+/*position: absolute; Indicamos el posicionamiento absoluto*/
+/*top: 50px; desplazamiento desde el borde superior (pto de referencia) hasta donde quiero colocarlo*/
+/*bottom: 100px; desplazamiento desde el borde inferior (pto de referencia) hasta donde quiero cologarlo*/
+/*left: 10px; desplazamiento desde el borde izquiero (pto de referencia) hasta donde quiero cologarlo (hacia la derecha)*/
+/*right: 15px; desplazamiento desde el borde derecho (pto de referencia) hasta donde quiero colocarlo (hacia la izquierda)*/
