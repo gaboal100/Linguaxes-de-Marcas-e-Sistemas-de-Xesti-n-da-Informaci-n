@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        
+        <meta name="description" content="Información que van a utilizar los buscadores de internet para categorizar esta página">
+        
+        <link rel="stylesheet" href="Formularios.css">
+        
+        <title>Título de la página web</title>
+	</head>
+	<body>
+		<form action="./procesadatos.php" method="get"> 
+            
+            <div class="izq">
+                <label class="required">Nombre: </label><input type="text" name="Nombre" placeholder="Escribe o teu nome" size="15" maxlength="25" required>            
+                <label class="required">Apelidos: </label><input type="text" name="Apelidos" placeholder="Escribe o teu apelido" size="50" maxlength="40" required>
+                <br/>
+            </div>
+            
+            <fieldset>
+                <legend>Dirección :</legend> <br>
+                <label>Calle:</label><input type="text" name="Calle" placeholder="Indica calle" size="50" maxlength="150">
+                <label>Número:</label><input type="number" name="Número" placeholder="00" min="0" max="99" id="NumP">
+                <label>Portal:</label><input type="text" name="Piso" placeholder="0" size="1" maxlength="1" id="portal">
+                <label>Letra:</label><input type="text" name="Letra" placeholder="A" size="1" maxlength="1">
+                <label>Bloque:</label><input type="text" name="Bloque" placeholder="A" size="1" maxlength="1">
+                <label>Código Postal:</label><input type="number" name="Código postal" placeholder="00000" step="1" min="01000" max="52999">
+                <br>
+                <label>Localidade:</label>
+                <input type="text" name="Localidade" placeholder="Indica a Localidade" size="30" maxlength="25">
+                <label>Provincia: </label><input type="text" name="Provincia" placeholder="Indica a provincia" size="30" maxlength="25">
+                <br>
+                <label>País: </label><select name="países[]" size="4">
+                <option value="1" selected>España</option>
+                <option value="2">Portugal</option>
+                <option value="3">Francia</option>
+                <option value="4">Argentina</option>
+                <option value="5">Brasil</option>
+                <option value="6">Etiopía</option>
+                <option value="7">E.E.U.U.</option>
+                <option value="8">Canadá</option>
+                <option value="9">Mexico</option>
+                <option value="10">Japón</option>
+                </select><br>
+            </fieldset>
+            
+            <div id="derecha">
+                <label>Foto de perfil: </label><input type="file" name="imgPerfil"><br>
+            </div>
+            
+            <div class="izq">
+                <label>Currículum:</label> <input type="file" name="CurrículumPDF"><br>
+
+                <label>Fecha de nacimiento</label><input type="date" name="Nacimiento"><br>
+
+                <label>Email: </label><input type="email" name="email">            
+                <label>Página Web:</label><input type="url" name="url"><br>
+
+                <label>Teléfono fijo: </label><input type="tel" name="Fijo" placeholder="000000000">
+                <label>Teléfono Móvil: </label><input type="tel" name="Móvil" placeholder="000000000"><br>
+
+                <label class="required">Nota de acceso a la universidad:</label><input type="number" name="Nota" placeholder="0" min="0" max="10" step="0.5"><br>
+
+                <label class="required">Usuario: </label><input type="text" name="Usuario" placeholder="Nombre de usuario" size="12" maxlength="12" required>            
+                <label>Contraseña: </label><input type="password" name="Contraseña" placeholder="******" size="15" maxlength="14" minlength="6" required>
+                <br/>
+
+                <label>Aficiones:</label>
+                <input type="checkbox" name="AficionesPel"><label>Películas</label>
+                <input type="checkbox" name="AficionesDep"><label>Deporte</label>
+                <input type="checkbox" name="AficionesJue"><label>Videojuegos</label>
+                <input type="checkbox" name="AficionesMus"><label>Música</label>
+                <input type="checkbox" name="AficionesAlp"><label>Alpinismo</label>
+                <input type="checkbox" name="AficionesVia"><label>Viajes</label>
+                <br>
+
+                <label>Rango de edad: </label>
+                <input type="radio" name="RangoEdad" value="18-22"><label>18-22</label>
+                <input type="radio" name="RangoEdad" value="22-30"><label>22-30</label>
+                <input type="radio" name="RangoEdad" value="30-40"><label>30-40</label>
+                <input type="radio" name="RangoEdad" value="40+"><label>40+</label>
+                <br>
+
+                <label>Idioma: </label><select>
+                    <option>Español</option>                
+                    <option>Inglés</option>                
+                    <option>Francés</option>                
+                    <option>Japonés</option>                
+                    <option>Irlandés</option>                
+                    <option>Ruso</option>                
+                    <option>Chino</option>                
+                </select> 
+                <label>Nivel: </label><input type="range" name="Inglés" min="0" max="10" step="1" value="7">
+                <br>
+
+                <label>Comentarios</label><textarea name="AreaDeTextoOComentario" rows="4" cols="50" placeholder="Escribe aquí tu comentario"></textarea> <br>
+                <br>
+
+                <input type="checkbox" name="AvisoLegal"><label>He leído y acepto el aviso legal y la política de privacidad.</label>
+                <br>
+                       
+                
+                        
+            <input type="submit" value="Enviar" class="boton">
+            <input type="reset" value="Borrar" class="boton">
+            </div> 
+            
+        </form>
+	</body>
+</html>

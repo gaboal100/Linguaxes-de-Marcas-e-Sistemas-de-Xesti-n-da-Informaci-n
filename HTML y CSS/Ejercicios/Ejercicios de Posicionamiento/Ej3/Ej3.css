@@ -1,0 +1,39 @@
+.div1, .div2, .div3, .div4{
+    height: 100px;
+    width: 100px;
+}
+
+.contenedor{
+    background-color: lightgray;
+    margin: 90px;
+    padding: 0;
+    
+}
+
+.div1{
+    background-color: gray;
+    position: static;
+    right: 50px;
+    bottom: 50px;
+}
+
+.div2{
+    background-color: green;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+}
+
+.div3{
+    background-color: yellow;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.div4{
+    background-color: cyan;
+    position: fixed;
+    right: 150px;
+    bottom: 50px;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 5px
+}
+
+legend{
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.boton{
+    margin-top: 30px;
+}
+
+#derecha{
+    float: right;
+}
+
+.izq{
+    float: left;
+    clear: both;
+}
+
+fieldset{
+    float: left;
+    padding-bottom: 20px;
+    width: 65%;
+    clear: both;
+    background-color: lightblue;
+}
+
+fieldset input, fieldset select{
+    background-color: lightblue;
+}
+
+#NumP{
+    width: 35px;
+}
+
+.required{
+    border-bottom: 1px solid red
+}

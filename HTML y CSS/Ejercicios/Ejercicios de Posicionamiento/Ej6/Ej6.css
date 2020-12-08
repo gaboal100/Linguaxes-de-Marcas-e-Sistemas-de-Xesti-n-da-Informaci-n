@@ -1,0 +1,49 @@
+.contenedor{
+    background-color: lightgray;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.caja{
+    background-color: aqua;
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+}
+
+.cajan{
+    background-color: green;
+    width: 600px;
+}
+
+#caja1{
+    float: left;
+}
+
+#caja2{
+    float: right;
+    height: 200px;
+}
+
+#caja3{
+    
+}
+
+#caja4{
+    clear: left;
+}
+
+#caja5{
+    float: right;
+    height: 200px;
+    width: 250px;
+}
+
+#caja6{
+    float: left;
+}
+
+#caja7{
+    clear: both;
+}
+

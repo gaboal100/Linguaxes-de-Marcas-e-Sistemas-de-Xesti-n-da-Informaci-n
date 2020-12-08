@@ -1,0 +1,17 @@
+.typeA{
+    color: red;
+    background-color: yellow;
+    border-bottom: 1px dotted black;
+}
+
+.typeNum{
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ul{
+    border: 1px solid red;
+    font-family: fantasy;
+    color: blue;
+}

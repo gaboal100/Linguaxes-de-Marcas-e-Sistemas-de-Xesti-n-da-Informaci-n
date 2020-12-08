@@ -1,0 +1,104 @@
+h1{
+    height: 40px;
+    width: 500px;
+
+    border-width: 3px 2px;
+    border-color: red indianred mediumvioletred palevioletred;
+    border-style: dashed dotted;
+    
+    padding: 10px 5px 4px;
+    margin: 5px 10px 20px 15px;
+}
+
+h2{
+    height: 40px;
+    width: 300px;
+    
+    border-width: 7px 8px;
+    border-color: blue;
+    border-style: double;
+    
+    padding: 5px 3px 2px 25px;
+    margin: 5px 10px 20px 25px;
+}
+
+ol{
+    height: 150px;
+    width: 150px;
+    
+    border-width: 20px;
+    border-color: royalblue;
+    border-style: groove;
+    
+    padding: 5px 3px 2px 25px;
+    margin: 35px;
+}
+
+li{
+    margin: 10px;
+    padding: 5px;
+    
+    border-style: groove;
+    border-width: 2px;
+}
+
+ol li{
+    border-color: royalblue;
+}
+
+ul{
+    height: 200px;
+    width: 100px;
+    
+    border-width: 20px;
+    border-color: red;
+    border-style: groove;
+    
+    padding: 25px;
+    margin: 45px;
+}
+
+ul li{
+    border-color: red;
+}
+
+h3{
+    height: 20px;
+    width: 200px;
+    
+    border-width: 2px 1px 1px 2px;
+    border-color: blue;
+    border-style: groove dotted hidden dashed;
+    
+    padding: 5px 3px 2px 25px;
+    margin: 5px 10px 20px 55px;
+}
+
+dl{
+    height: 250px;
+    width: 300px;
+    
+    border: 1px solid black;
+    
+    margin: 5px 65px;
+}
+
+dt{
+    height: 25px;
+    width: 125px;
+    
+    border-width: 1px 0px 2px;
+    border-style: dashed;
+    border-color: black hidden grey;
+    
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+dd{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+

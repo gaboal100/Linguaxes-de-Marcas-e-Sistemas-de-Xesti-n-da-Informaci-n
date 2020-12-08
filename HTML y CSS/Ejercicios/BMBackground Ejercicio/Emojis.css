@@ -1,0 +1,42 @@
+#contenedor{
+    height: 700px;
+}
+
+div{
+    border: solid black 1px;
+    margin: 10px 25px;
+    padding: 10px 25px;
+}
+
+#titulo{
+    height: 20px;
+    width: 45px;
+    border-width: 0 2px 2px 0;
+    border-color: black;
+    border-style: dashed;
+    margin-left: 20px;
+    color: red;
+}
+
+#emo1{
+    background-image: url(riendollorando.jpeg);
+    height: 100px;
+    background-size: 20px;
+}
+
+#emo2{
+    background-image: url(pill%C3%ADn.jpg);
+    height: 150px;
+    background-size: 50px;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+#emo3{
+    background-image: url(yoalvermisnotas.jpeg);
+    height: 170px;
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin-left: 120px
+}
+
+div{
+    border: 1px solid black;
+}
+
+#divimg2{
+    position: relative;
+    left: 200px;
+}
+
+#img2{
+    position: relative;
+    left: 0px;
+}
+
+#divimg3{
+    position: relative;
+    left: 400px;
+}
+
+#img3{
+    position: relative;
+    top: 0px;
+}
+#divimg4{
+    
+    position: relative;
+    left: 700px;
+    bottom: 206px;
+}
+
+#img4{
+    position: relative;
+    top: 00px;
+}
+
+#divimg5{
+    position: relative;
+    left: 1000px;
+    bottom: 619px;
+}
+
+#img5{
+    position: relative;
+    top: 0px;
+}
+
+#divimg6{
+    position: relative;
+    left: 1250px;
+    bottom: 1030px;
+}
+
+#img6{
+    position: relative;
+    top: 0;
+}
+
+#divimg7{
+    position: relative;
+    left: 564px;
+    bottom: 620px;
+}
+
+#img7{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#divimg8{
+    position: relative;
+    left: 564px;
+    bottom: 620px;
+}
+
+#img8{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+/*position: static; Valor de posicionamiento por defecto*/
+/*position: relative; Indicamos posicionamiento relativo*/
+/*position: absolute; Indicamos el posicionamiento absoluto*/
+/*top: 50px; desplazamiento desde el borde superior (pto de referencia) hasta donde quiero colocarlo*/
+/*bottom: 100px; desplazamiento desde el borde inferior (pto de referencia) hasta donde quiero cologarlo*/
+/*left: 10px; desplazamiento desde el borde izquiero (pto de referencia) hasta donde quiero cologarlo (hacia la derecha)*/
+/*right: 15px; desplazamiento desde el borde derecho (pto de referencia) hasta donde quiero colocarlo (hacia la izquierda)*/
